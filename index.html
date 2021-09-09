@@ -1,32 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ботаника</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Заголовок страницы</title>
   </head>
   <body>
-    <header>
-      <img src="img/OBJECTS.png" alt="Логотип">"
-      <nav>
-      <ul>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Доставка и оплата</a></li>
-        <li><a href="#">Отзывы</a></li>
-        <li><a href="#">Спецпредложения</a></li>
-        <li><a href="#">Контакты</a></li>
-        <li><a href="#">Корзина</a></li>
-      </ul>
-      </nav>
-    </header>
+<header class="main-header">
+<img src="img/Logo.png" alt="Логотип">
+<nav>
+<ul>
+<hr>
+<p>
+<li><a href="#">Каталог</a></li>
+<li><a href="#">Доставка и оплата</a></li>
+<li><a href="#">Отзывы</a></li>
+<li><a href="#">Спецпредложения</a></li>
+<li><a href="#">Контакты</a></li>
+<li><a href="#">Корзина</a></li>
+</p>
+<hr>
+</ul>
+</nav>
+</header>
     <main>
-<section><h1>Авторские букеты в Петербурге</h1>
+<section><h1>Авторские букеты<span> в Петербурге</span></h1>
   <p>Оригинальные свежие букеты с доставкой по городу</p>
 <a href="#"> Смотреть каталог </a>
 <img src="img/flow1.jpg" alt="Розовые тюльпаны">
 <img src="img/flow2.jpg" alt="Букет роз">
 </section>
-<section class="services">
+<section class="usl">
 <img src="img/car.svg" alt="">
 <dl>
 <dt>Медленная доставка,даже очень</dt>
@@ -51,25 +57,26 @@
 <p> 2999 руб. </p>
 <a href="#"> Заказать </a>
 <img src="img/1.png" alt="">
-<img src="img/Arrow 2.svg" alt="">
-<img src="img/Arrow 1.svg" alt="">
+<img src="img/arrow2.svg" alt="">
+<img src="img/arrow1.svg" alt="">
 </section>
-<section class="flw">
-<div class="flw1"
-<a href="#">
+<section class="picture">
+<div class="picture-1">
+
 <img src="img/well.jpg" alt="vaza">
+<a href="#">
 <h3>Свадебные букеты</h3>
 <p> Букеты для невест </p>
 </a>
 </div>
-<div class="flw2">
+<div class="picture-2">
   <a href="#">
 <img src="img/well1.jpg" alt="vaza2">
 <h3>Букеты с пионами</h3>
 <p> Букеты с сезонными пионами </p>
   </a>
 </div>
-<div class="flw3">
+<div class="picture-3">
   <a href="#">
 <img src="img/well3.jpg" alt="vaza3">
 <h3>Выбрать букет</h3>
@@ -82,14 +89,14 @@
   <p>Если заказываете у нас букет впервые — при оформлении заказа введите промокод «Botanika2021» и получите скидку 10%.</p>
   <img src="img/sale.jpg" alt="sales">
 </section>
-<section class="orders">
+<section class="border">
   <h2>4 шага к идеальному букету</h2>
   <img src="img/nb.svg" alt="">
   <dl>
   <dt>Заказ</dt>
   <dd>Выберите понравившийся букет из каталога и оформите заказ</dd>
   </dl>
-  <<img src="img/girl.svg" alt="">
+  <img src="img/girl.svg" alt="">
   <dl>
     <dt>Уточнение деталей</dt>
   <dd>Наш флорист позвонит вам после оформления заказа, чтобы уточнить детали</dd>
@@ -117,7 +124,7 @@
 <img src="img/smell1.jpg" alt="cvet">
 <img src="img/smell3.jpg" alt="cvet">
 </section>
-<section class="reviews">
+<section class="review">
 <h2>Отзывы </h2>
   <blockquote>
     Всё очень понравилось! Быстрое оформление заказа, выбор удобного времени доставки. Всем большое спасибо!<cite>Марина</cite>
@@ -130,7 +137,7 @@
   </blockquote>
 
 </section>
-<section class="map">
+<section class="contacts">
   <div>
     <img src="img/map.jpg" alt="map">
     <h2>Мы ждем вас! </h2>
@@ -146,18 +153,25 @@
   </div>
 </section>
     </main>
-    <footer>
+    <footer class="main-footer">
+      <img src="img/Logo.png" alt="Логотип">
       <nav>
       <ul>
-        <li>Каталог</li>
-        <li>Доставка и оплата</li>
-        <li>Отзывы</li>
-        <li>Спецпредложения</li>
-        <li>Контакты</li>
-        <li>Корзина</li>
+        <li><a href="#">Каталог</a></li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">Отзывы</a></li>
+        <li><a href="#">Спецпредложения</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Корзина</a></li>
       </ul>
       </nav>
+      <ul>
+        <li><a href="#"><img src="img/ig.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/fc.svg" alt=""></a></li>
+          <li><a href="#"><img src="img/tw.svg" alt="">
+</a>
+          </li>
+        </ul>
     </footer>
-
   </body>
 </html>
