@@ -1,12 +1,18 @@
 
 }
 body{
+	font-family: Montserrat, sans-serif;
+	color: #AE7C78;
+	font-size: 16px;
+	line-height: 20px;
+
 
 }
 li{
 	font-family: Montserrat;
 	display: inline;
 	margin-right: 100px;
+	margin-right: 90px;
 }
 a{
 	text-decoration: none;
@@ -20,7 +26,7 @@ a{
 	color: #AE7C78;
 }
 h1{
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	color: #AE7C78;
 	font-style: normal;
 	font-weight: normal;
@@ -28,7 +34,7 @@ h1{
 	line-height: 59px;
 }
 h2{
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 700;
@@ -55,16 +61,17 @@ hr{
 	border: 1px solid #AE7C78;
 }
 span{
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	font-style: italic;
 	font-weight: normal;
 	font-size: 44px;
 	line-height: 59px;
 }
-.pur p{
+.l1 p{
 	font-family: Montserrat;
 	color: #AE7C78;
 	font-size: 24px;
+	font-weight: 400;
 }
 dt{
 	font-family: Montserrat;
@@ -89,7 +96,7 @@ dd{
 	color: #AE7C78;
 }
 .picture h3{
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	font-size: 36px;
 	font-style: normal;
 	font-weight: 700;
@@ -108,7 +115,7 @@ dd{
 	color: #AE7C78;
 }
 .sale h3{
-	font-family: Playfair Display;
+	font-family: "Playfair Display";
 	font-size: 44px;
 	font-style: normal;
 	font-weight: 400;
@@ -178,9 +185,36 @@ cite{
 	color: #AE7C78;
 }
 .Logo{
-  position: absolute;
   right: 50px;
+	text-align: center;
 }
 hr{
   border: 1px solid #AE7C78;
+}
+.main-header {
+
+}
+.order{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+background: #D89999;
+border-radius: 40px;
+padding: 30px 70px;
+border: none;
+color: white;
+}
+.catalog{
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+background: #D89999;
+border-radius: 40px;
+padding: 30px 70px;
+border: none;
+color: white;
 }
