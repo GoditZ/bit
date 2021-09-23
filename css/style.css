@@ -72,11 +72,11 @@ span{
 	font-weight: normal;
 	line-height: 59px;
 }
-.l1{
+.l{
 	width: 1440px;
 	margin: 0 auto;
 }
-.l1 p{
+.l p{
 	font-weight: normal;
 	font-size: 24px;
 }
@@ -86,11 +86,11 @@ dt{
 dd{
 	font-style: normal;
 }
-.l1-2 {
+.l2 {
 	padding-left: 75px;
 	line-height: 1.3;
 }
-.l1-2>h1{
+.l2>h1{
 	margin-top: 81px;
 }
 .button {
@@ -103,10 +103,10 @@ dd{
 	border: none;
 	color: white;
 }
-.l2{
+.butt{
 	margin-top: 64px; 
 }
-.l1-1 {
+.l1 {
 	display: flex;
 }
 .flowers {
@@ -120,8 +120,94 @@ dd{
 	padding-bottom: 50px;
 	padding-left: 20px;
 }
+
+.usl{
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+	padding-left: 75px;
+	padding-top: 48px;
+}
+.u1,
+.u2,
+.u3{
+	width: 285px;
+	margin-left: 20px;
+}
+.usl1{
+	margin-left: 58px;
+	margin-top: 18px;
+}
+dd{
+	margin-left: 0;
+	margin-top: 8px;
+}
+.slider{
+	padding-top: 80px;
+	text-align: center;
+}
 .slider p{
 	font-style: normal;
+}
+.slider-main{
+	width: 1440px;
+	margin: 0 auto;
+	display: flex;
+}
+.slider-info{
+	width: 375px;
+	text-align: left;
+	margin: 63px 20px 51px 323px;
+}
+.img-slider{
+	margin-top: 36px;
+	margin-bottom: 24px;
+}
+.picture{
+	
+}
+.picture-1{
+	height: 442px;
+	background: url(../img/well.jpg) no-repeat;
+	position: relative;
+	
+}
+.picture-1>.hoverpicture{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(174, 124, 120, 0.6);
+	border-radius: 10px;
+	height: 442px;
+	width: 387px;
+}
+.picture-2{
+	height: 442px;
+	background: url(../img/well1.jpg) no-repeat;
+	position: relative;
+}
+.picture-2>.hoverpicture{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(174, 124, 120, 0.6);
+	border-radius: 10px;
+	height: 442px;
+	width: 387px;
+}
+.picture-3{
+	height: 442px;
+	background: url(../img/well3.jpg) no-repeat;
+	position: relative;
+}
+.picture-3>.hoverpicture{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(174, 124, 120, 0.6);
+	border-radius: 10px;
+	height: 442px;
+	width: 387px;
 }
 .picture h3{
 	font-family: Playfair Display;
@@ -164,7 +250,3 @@ cite{
 	font-style: normal;
 	font-weight: 500;
 }
-
-
-
-
