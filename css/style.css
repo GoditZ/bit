@@ -4,6 +4,8 @@ body{
 	color: #AE7C78;
 	line-height: 20px;
 	font-weight: 400;
+	padding-left: 120px;
+	padding-right: 120px;
 }
 li{
 	display: inline;
@@ -13,6 +15,7 @@ a{
 	text-decoration: none;
 	color: #AE7C78;
 }
+
 .main-header{
 	width: 100%;
 	height: 64px;
@@ -72,11 +75,11 @@ span{
 	font-weight: normal;
 	line-height: 59px;
 }
-.l{
+.pur{
 	width: 1440px;
 	margin: 0 auto;
 }
-.l p{
+.pur p{
 	font-weight: normal;
 	font-size: 24px;
 }
@@ -86,11 +89,11 @@ dt{
 dd{
 	font-style: normal;
 }
-.l2 {
+.buket {
 	padding-left: 75px;
 	line-height: 1.3;
 }
-.l2>h1{
+.buket>h1{
 	margin-top: 81px;
 }
 .button {
@@ -106,7 +109,7 @@ dd{
 .butt{
 	margin-top: 64px; 
 }
-.l1 {
+.pur-1 {
 	display: flex;
 }
 .flowers {
@@ -121,20 +124,20 @@ dd{
 	padding-left: 20px;
 }
 
-.usl{
+.orders{
 	width: 1440px;
 	margin: 0 auto;
 	display: flex;
 	padding-left: 75px;
 	padding-top: 48px;
 }
-.u1,
-.u2,
-.u3{
+.o-1,
+.o-2,
+.o-3{
 	width: 285px;
 	margin-left: 20px;
 }
-.usl1{
+.order-logo{
 	margin-left: 58px;
 	margin-top: 18px;
 }
@@ -163,51 +166,40 @@ dd{
 	margin-top: 36px;
 	margin-bottom: 24px;
 }
-.picture{
-	
+
+.picture-mainer{
+	width: 1440px;
+	display: flex;
+	margin: 0 auto;
+	padding-left: 115px;
+	padding-top: 80px;
 }
-.picture-1{
-	height: 442px;
-	background: url(../img/well.jpg) no-repeat;
-	position: relative;
-	
+.picture-main h3{
+	width: 350px;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
 }
-.picture-1>.hoverpicture{
+.hoverpicture{
+    position: relative;
+	margin-left: 19px;
+}
+.picture-main p{
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    width: 350px;
+    color: #FFFFFF;
+    text-align: center;
+    align-items: center;
+}
+.picture-mainer a{
 	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(174, 124, 120, 0.6);
-	border-radius: 10px;
-	height: 442px;
-	width: 387px;
-}
-.picture-2{
-	height: 442px;
-	background: url(../img/well1.jpg) no-repeat;
-	position: relative;
-}
-.picture-2>.hoverpicture{
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(174, 124, 120, 0.6);
-	border-radius: 10px;
-	height: 442px;
-	width: 387px;
-}
-.picture-3{
-	height: 442px;
-	background: url(../img/well3.jpg) no-repeat;
-	position: relative;
-}
-.picture-3>.hoverpicture{
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-color: rgba(174, 124, 120, 0.6);
-	border-radius: 10px;
-	height: 442px;
-	width: 387px;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
 }
 .picture h3{
 	font-family: Playfair Display;
@@ -219,21 +211,142 @@ dd{
 .picture p{
 	font-style: normal;
 }
+.hoverpicture span {
+    height: 442px;
+    width: 387px;
+    position: absolute;
+    background: rgba(174, 124, 120, 0.6);
+    border-radius: 10px;
+}
+.sale-main{
+	width: 1440px;
+	margin: 0 auto;
+}
+.sale-mainer{
+	margin-top: 80px;
+    display: flex;
+    background-color: #AE7C78;
+    padding-top: 40px;
+    padding-left: 102px;
+}
+.sale-mainer img{
+	left: 382px;
+	position: relative;
+    margin-top: -40px;
+	width: 590px;
+}
+.sale-text{
+	height: 100%;
+    position: relative;
+	padding-bottom: 64px;
+}
+
 .sale h3{
 	font-family: Playfair Display;
 	font-size: 44px;
 	font-style: normal;
 	line-height: 59px;
+	color: #FFFFFF;
 }
 .sale p{
-	font-size: 24px;
-	font-style: normal;
-	line-height: 29px;
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-top: 24px;
 }
-.news p{
+.fh2{
+	margin-top: 80px;
+    display: flex;
+	justify-content: center;
+}
+.border-main{
+	width: 1440px;
+	margin: 0 auto;
+}
+.orders{
+	margin-top: 36px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+} 
+.orders dt {
+	text-align:center;
+}
+.orders dd{
+	font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;  
+    margin-top: 8px;
+}
+.orders img{
+	padding-left: 110px;
+	margin-bottom: 8px;
+}
+.order{
+	text-align: center;
+    width: 285px;
+}
+.pod{
+	margin-top:80px; 
+}
+.pod-main{
+	width: 1440px;
+	margin: 0 auto;
+}
+.pod-fol{
+	display: grid;
+    grid-template-columns: 508px 285px 460px; 
+    grid-template-rows: 460px;
+}
+.pod-new{
+	margin-top: 70px;
+}
+.flowers img{ 
+    margin-bottom: 16px;
+}
+.pod-news h2{
+	line-height: 48px;  
+}
+.flowers2{
+    padding-left: 85px;
+}
+.pod p{
 	font-size: 24px;
 	font-style: normal;
 	line-height: 29px;
+	margin-top: 40px;
+}
+.border {
+    border: 1px solid #AE7C78;
+    box-sizing: border-box;
+    margin-top: 80px;
+    height: 308px;
+}
+.reviews {
+	width: 1440px;
+	margin: 0 auto;
+}
+.feedback{
+	display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.reviews-1{
+	display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-left: 44px;
+    padding-right: 44px;
+}
+.reviews-1 blockquote{
+	margin-top: 40px;
+    width: 300px;
+    padding-bottom: 8px;
 }
 blockquote{
 	font-style: normal;
@@ -242,6 +355,42 @@ cite{
 	font-style: normal;
 	font-weight: 500;
 }
+.contacts{
+	height: 644px;
+    background: url(../img/map.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+    padding-bottom: 100px;
+	width: 1440px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.contacts .cont{
+	padding: 32px 0px 72px 255px;
+}
+.cont{
+	width: 1440px;
+	margin: 0 auto;
+}
+.kart {
+    width: 386px;
+    height: 520px;
+    background-color: rgba(247, 250, 252, 1);
+    border-radius: 10px;
+    text-align: left;
+}
+.kart h2,
+.kart h4,
+.kart a,
+.kart p {
+	margin-left: 35px;
+}
+.kart h2 {
+    padding-top: 40px;
+}
+.kart h4{
+    padding-top: 15px;
+}
 .contacts a{
 	font-style: normal;
 	font-weight: 500;
@@ -249,4 +398,51 @@ cite{
 .contacts p{
 	font-style: normal;
 	font-weight: 500;
+}
+.containerss{
+	width: 1440px;
+	margin: 0 auto;
+}
+footer {
+    background-size: cover;
+    background-color: #AE7C78;;
+    background-size: cover;
+    height: 97px;
+	width: 1440px;
+	margin-left: 88px;
+}
+.footer-menu { 
+    padding: 24px 0;
+	display: flex;
+	justify-content: space-between;
+	align-self: center;
+    
+}
+.footer-font {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.footer-menu ul {
+	list-style: none;
+	display: flex;
+	align-items: center;
+}
+.footer-menu ul li {
+    margin-right: 68px;
+    margin-bottom: 4px;
+}
+.footer-menu ul li a {
+    color: #FFFFFF;
+}
+.social {
+    margin-top: 10px;
+	margin-right: 115px;
+    filter: brightness(10);
+}
+.social img{
+    margin-right: 15px;
 }
