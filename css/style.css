@@ -4,8 +4,7 @@ body{
 	color: #AE7C78;
 	line-height: 20px;
 	font-weight: 400;
-	padding-left: 120px;
-	padding-right: 120px;
+
 }
 li{
 	display: inline;
@@ -361,7 +360,7 @@ cite{
     background-size: cover;
     margin-top: 80px;
     padding-bottom: 100px;
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 	margin-top: 80px;
 }
@@ -369,7 +368,7 @@ cite{
 	padding: 32px 0px 72px 255px;
 }
 .cont{
-	width: 1440px;
+	width: 100%;
 	margin: 0 auto;
 }
 .kart {
@@ -408,8 +407,8 @@ footer {
     background-color: #AE7C78;;
     background-size: cover;
     height: 97px;
-	width: 1440px;
-	margin-left: 88px;
+	width: 100%;
+	
 }
 .footer-menu { 
     padding: 24px 0;
